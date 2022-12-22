@@ -1,0 +1,22 @@
+{
+  "name": "kaniko_demo",
+  "version": "1.0.0",
+  "description": "this code is to demo kaniko build using node application",
+  "main": "server_init.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KS2911/kaniko_demo.git"
+  },
+  "author": "ks2911",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KS2911/kaniko_demo/issues"
+  },
+  "homepage": "https://github.com/KS2911/kaniko_demo#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
