@@ -8,7 +8,7 @@ spec:
     image: gcr.io/kaniko-project/executor:latest
     args: [
           "--dockerfile=/workspace/dockerfile",
-            "--context=dir://workspace",
+            "--context=git://github.com/KS2911/kaniko_demo.git#refs/heads/dev",
             "--destination=ks2911/demo-project"
           ]
     volumeMounts:
